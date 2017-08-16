@@ -7,4 +7,4 @@ var manejador = function(solicitud, respuesta) {
 
 var servidor = http.createServer(manejador);
 
-servidor.listen(8080);
+servidor.listen(3000);
