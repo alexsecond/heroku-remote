@@ -7,4 +7,6 @@ var manejador = function(solicitud, respuesta) {
 
 var servidor = http.createServer(manejador);
 
-servidor.listen(3000);
+const port = process.env.PORT || 3000  
+
+servidor.listen(port);
